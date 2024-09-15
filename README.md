@@ -33,14 +33,14 @@ You can run this game locally by following these steps:
 
 ## Files
 
-1.index.html: Contains the structure of the game interface.
-2.style.css: Styles the game and controls the appearance.
-3.script.js: Implements the game logic, including random number generation and player feedback.
+1. index.html: Contains the structure of the game interface.
+2. style.css: Styles the game and controls the appearance.
+3. script.js: Implements the game logic, including random number generation and player feedback.
 
 ## Technologies Used
-1.HTML: For structuring the game interface.
-2.CSS: For styling the layout and design.
-3.JavaScript: For handling the game logic, user input, and dynamic updates.
+1. HTML: For structuring the game interface.
+2. CSS: For styling the layout and design.
+3. JavaScript: For handling the game logic, user input, and dynamic updates.
 
 ## Future Enhancements
 - Add sound effects for each round.
