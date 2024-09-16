@@ -3,13 +3,13 @@
 This is a simple *Rock, Paper, Scissors* game built using HTML, CSS, and JavaScript. The user plays against the computer, and the goal is to win by selecting rock, paper, or scissors, based on traditional game rules. The game provides instant feedback, updates the score for each round, and displays the winner after each move.
 
 ## Screenshots
-![RockPaperScissors Screenshot](Screenshot%2024-09-17%044234.png)
+![RockPaperScissors Screenshot](Screenshot%202024-09-17%20044234.png)
 - *Computer Wins*
-![RockPaperScissors Screenshot](Screenshot%2024-09-17%044254.png)
+![RockPaperScissors Screenshot](Screenshot%202024-09-17%20044254.png)
 - *User Wins*
-![RockPaperScissors Screenshot](Screenshot%2024-09-17%044310.png)
+![RockPaperScissors Screenshot](Screenshot%202024-09-17%20044310.png)
 - *Draw*
-![RockPaperScissors Screenshot](Screenshot%2024-09-17%044325.png)
+![RockPaperScissors Screenshot](Screenshot%202024-09-17%20044325.png)
 
 ## Features
 - The user plays against the computer.
