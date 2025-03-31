@@ -54,13 +54,7 @@ You can run this game locally by following these steps:
 2. CSS: For styling the layout and design.
 3. JavaScript: For handling the game logic, user input, and dynamic updates.
 
-## Future Enhancements
-- Add sound effects for each round.
-- Implement difficulty levels (e.g., easy, medium, hard).
-- Add an option to play best out of 3 or 5 rounds.
-- Improve the game interface with more animations and styles.
-
-## Clone the repository:
+## Cloning the repository:
 ```bash
 git clone https://github.com/your-username/rock-paper-scissors.git
 cd rock-paper-scissors
