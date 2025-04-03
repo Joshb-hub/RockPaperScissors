@@ -1,0 +1,242 @@
+* {
+    margin:0;
+    padding:0;
+    text-align:center;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+body {
+    background: linear-gradient(135deg, #36d1dc, #5b86e5);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    opacity:0.8;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(50, 47, 47, 0.2);
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.choice {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.choice img {
+    width: 95%;
+    height: 95%;
+    border-radius: 60%;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.score {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 1.5rem;
+    width: 40%;
+    max-width: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.score:hover {
+    transform: translateY(-5px);
+}
+
+#user-score,
+#comp-score {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+#user-display, #comp-display {
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+.msg-container {
+    margin-top: 2rem;
+}
+
+#msg {
+    background: linear-gradient(rgb(54, 158, 223), rgb(21, 114, 212));
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#msg:hover {
+    background-color: #1a2530;
+    transform: translateY(-3px);
+}
+
+#msg:active {
+    transform: translateY(1px);
+}
+
+/* Styles for Input Field and Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+#rounds-input {
+    width: 80px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+}
+
+#rounds-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Styles for Buttons */
+#reset-btn,
+#new-btn {
+    background: linear-gradient(135deg, #eb71f4, #e786e1);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#reset-btn:hover,
+#new-btn:hover {
+    background: linear-gradient(135deg, #e535d0, #dd1ee0);
+    transform: translateY(-3px);
+}
+
+#reset-btn:active,
+#new-btn:active {
+    transform: translateY(1px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+        width: 95%;
+    }
+    
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .score-board {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+    .score {
+        width: 80%;
+    }
+    
+    .choices {
+        gap: 1rem;
+    }
+    
+    .choice {
+        width: 80px;
+        height: 80px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #rounds-input {
+        width: 100px;
+    }
+
+    #reset-btn, #new-btn {
+        padding: 8px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .choice {
+        width: 70px;
+        height: 70px;
+    }
+    
+    #msg {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    #reset-btn, #new-btn {
+        font-size: 0.9rem;
+        padding: 8px 18px;
+    }
+}
